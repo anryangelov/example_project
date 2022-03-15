@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  django:
+    ports:
+      - 5678:5678
+    command: /start_debug
